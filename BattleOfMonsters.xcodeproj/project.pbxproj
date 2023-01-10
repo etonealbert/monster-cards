@@ -17,7 +17,6 @@
 		3A96103B2965D0A900D34083 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96103A2965D0A900D34083 /* Store.swift */; };
 		3A96103F2965D48400D34083 /* MonsterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96103E2965D48400D34083 /* MonsterListView.swift */; };
 		3A9610442965E38100D34083 /* MonsterBattleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610432965E38100D34083 /* MonsterBattleCardView.swift */; };
-		3A9610482965EACF00D34083 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610472965EACF00D34083 /* ProgressBarView.swift */; };
 		3A96104C2965FF2E00D34083 /* MonsterBattleCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */; };
 		3A9610512966128900D34083 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610502966128900D34083 /* ColorExtension.swift */; };
 		3A961055296616D900D34083 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A961054296616D900D34083 /* ButtonView.swift */; };
@@ -77,7 +76,6 @@
 		3A96103A2965D0A900D34083 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3A96103E2965D48400D34083 /* MonsterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListView.swift; sourceTree = "<group>"; };
 		3A9610432965E38100D34083 /* MonsterBattleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardView.swift; sourceTree = "<group>"; };
-		3A9610472965EACF00D34083 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardListView.swift; sourceTree = "<group>"; };
 		3A9610502966128900D34083 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		3A961054296616D900D34083 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
@@ -178,7 +176,6 @@
 				3AFE69802964E77F00E32FEA /* ScreenTitleView.swift */,
 				3AFE69702964CCB000E32FEA /* MonsterCardView.swift */,
 				3A96103E2965D48400D34083 /* MonsterListView.swift */,
-				3A9610472965EACF00D34083 /* ProgressBarView.swift */,
 				3A9610432965E38100D34083 /* MonsterBattleCardView.swift */,
 				3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */,
 				3AC1B4FD296CA403002C42BF /* WinnerView.swift */,
@@ -458,7 +455,6 @@
 				3ADF6905296C494800A16035 /* Services.swift in Sources */,
 				3A9610332965CD5400D34083 /* Reducer.swift in Sources */,
 				3A96102B2965CCA400D34083 /* State.swift in Sources */,
-				3A9610482965EACF00D34083 /* ProgressBarView.swift in Sources */,
 				3AFE69692964C5F100E32FEA /* Monster.swift in Sources */,
 				3A7E29FC296760DE000D6088 /* Battle.swift in Sources */,
 				3A96103B2965D0A900D34083 /* Store.swift in Sources */,

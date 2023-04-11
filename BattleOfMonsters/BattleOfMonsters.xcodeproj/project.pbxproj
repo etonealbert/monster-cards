@@ -1,0 +1,1053 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A4C72D129707EE800CE2312 /* Kitura in Frameworks */ = {isa = PBXBuildFile; productRef = 3A4C72D029707EE800CE2312 /* Kitura */; };
+		3A5B21DC2968AFBF0002D78B /* MockAPIClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5B21DB2968AFBF0002D78B /* MockAPIClientTests.swift */; };
+		3A722BDB29691A49000FD356 /* AppStoreExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BDA29691A49000FD356 /* AppStoreExtension.swift */; };
+		3A7E29FA29674ABE000D6088 /* MockAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E29F929674ABE000D6088 /* MockAPIClient.swift */; };
+		3A7E29FC296760DE000D6088 /* Battle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E29FB296760DE000D6088 /* Battle.swift */; };
+		3A7E2A0029678211000D6088 /* WinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7E29FF29678211000D6088 /* WinnerView.swift */; };
+		3A96102B2965CCA400D34083 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96102A2965CCA400D34083 /* State.swift */; };
+		3A96102F2965CCEC00D34083 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96102E2965CCEC00D34083 /* Actions.swift */; };
+		3A9610332965CD5400D34083 /* Reducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610322965CD5400D34083 /* Reducer.swift */; };
+		3A96103B2965D0A900D34083 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96103A2965D0A900D34083 /* Store.swift */; };
+		3A96103F2965D48400D34083 /* MonsterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96103E2965D48400D34083 /* MonsterListView.swift */; };
+		3A9610442965E38100D34083 /* MonsterBattleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610432965E38100D34083 /* MonsterBattleCardView.swift */; };
+		3A96104C2965FF2E00D34083 /* MonsterBattleCardListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */; };
+		3A9610512966128900D34083 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9610502966128900D34083 /* ColorExtension.swift */; };
+		3A961055296616D900D34083 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A961054296616D900D34083 /* ButtonView.swift */; };
+		3A9DF25A2970C59500F5B4D2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF6904296C494800A16035 /* Services.swift */; };
+		3A9DF25B2970C86500F5B4D2 /* UrlProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58C949296F9AE40053AF14 /* UrlProtocolMock.swift */; };
+		3AB3F2B829693A0200696315 /* Challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE729692EB5000FD356 /* Challenge1Tests.swift */; };
+		3AB5534029693961006BFF3E /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE529692B6D000FD356 /* Challenge3.swift */; };
+		3AB5534129693964006BFF3E /* Challenge3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE929692EEB000FD356 /* Challenge3Tests.swift */; };
+		3AB5534229693967006BFF3E /* Challenge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE829692EDD000FD356 /* Challenge2Tests.swift */; };
+		3AB5534329693969006BFF3E /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE329692B63000FD356 /* Challenge2.swift */; };
+		3AB553452969396F006BFF3E /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE129692B52000FD356 /* Challenge1.swift */; };
+		3AFE69382964B02500E32FEA /* BattleOfMonstersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69372964B02500E32FEA /* BattleOfMonstersApp.swift */; };
+		3AFE693A2964B02500E32FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69392964B02500E32FEA /* ContentView.swift */; };
+		3AFE693C2964B02700E32FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE693B2964B02700E32FEA /* Assets.xcassets */; };
+		3AFE693F2964B02700E32FEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE693E2964B02700E32FEA /* Preview Assets.xcassets */; };
+		3AFE69532964B02700E32FEA /* BattleOfMonstersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69522964B02700E32FEA /* BattleOfMonstersUITests.swift */; };
+		3AFE69552964B02700E32FEA /* BattleOfMonstersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69542964B02700E32FEA /* BattleOfMonstersUITestsLaunchTests.swift */; };
+		3AFE69692964C5F100E32FEA /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69682964C5F100E32FEA /* Monster.swift */; };
+		3AFE696D2964CC7100E32FEA /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE696C2964CC7100E32FEA /* Bundle-Decodable.swift */; };
+		3AFE69712964CCB000E32FEA /* MonsterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69702964CCB000E32FEA /* MonsterCardView.swift */; };
+		3AFE69752964D26000E32FEA /* MonsterList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69742964D26000E32FEA /* MonsterList.swift */; };
+		3AFE697D2964D68500E32FEA /* monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE697C2964D68500E32FEA /* monsters.json */; };
+		3AFE69812964E77F00E32FEA /* ScreenTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69802964E77F00E32FEA /* ScreenTitleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3AFE69452964B02700E32FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFE692C2964B02500E32FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFE69332964B02500E32FEA;
+			remoteInfo = BattleOfMonsters;
+		};
+		3AFE694F2964B02700E32FEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3AFE692C2964B02500E32FEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3AFE69332964B02500E32FEA;
+			remoteInfo = BattleOfMonsters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A58C949296F9AE40053AF14 /* UrlProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolMock.swift; sourceTree = "<group>"; };
+		3A5B21DB2968AFBF0002D78B /* MockAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClientTests.swift; sourceTree = "<group>"; };
+		3A722BDA29691A49000FD356 /* AppStoreExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreExtension.swift; sourceTree = "<group>"; };
+		3A722BE129692B52000FD356 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
+		3A722BE329692B63000FD356 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
+		3A722BE529692B6D000FD356 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
+		3A722BE729692EB5000FD356 /* Challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Tests.swift; sourceTree = "<group>"; };
+		3A722BE829692EDD000FD356 /* Challenge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2Tests.swift; sourceTree = "<group>"; };
+		3A722BE929692EEB000FD356 /* Challenge3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3Tests.swift; sourceTree = "<group>"; };
+		3A7E29F929674ABE000D6088 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
+		3A7E29FB296760DE000D6088 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
+		3A7E29FF29678211000D6088 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
+		3A96102A2965CCA400D34083 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		3A96102E2965CCEC00D34083 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
+		3A9610322965CD5400D34083 /* Reducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reducer.swift; sourceTree = "<group>"; };
+		3A96103A2965D0A900D34083 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		3A96103E2965D48400D34083 /* MonsterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterListView.swift; sourceTree = "<group>"; };
+		3A9610432965E38100D34083 /* MonsterBattleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardView.swift; sourceTree = "<group>"; };
+		3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardListView.swift; sourceTree = "<group>"; };
+		3A9610502966128900D34083 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		3A961054296616D900D34083 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		3AB5533929693946006BFF3E /* ProblemSolving.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemSolving.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ADF6904296C494800A16035 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		3AFE69342964B02500E32FEA /* BattleOfMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOfMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE69372964B02500E32FEA /* BattleOfMonstersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersApp.swift; sourceTree = "<group>"; };
+		3AFE69392964B02500E32FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3AFE693B2964B02700E32FEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3AFE693E2964B02700E32FEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AFE69442964B02700E32FEA /* BattleOfMonstersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleOfMonstersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE694E2964B02700E32FEA /* BattleOfMonstersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BattleOfMonstersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AFE69522964B02700E32FEA /* BattleOfMonstersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersUITests.swift; sourceTree = "<group>"; };
+		3AFE69542964B02700E32FEA /* BattleOfMonstersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3AFE69682964C5F100E32FEA /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		3AFE696C2964CC7100E32FEA /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		3AFE69702964CCB000E32FEA /* MonsterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterCardView.swift; sourceTree = "<group>"; };
+		3AFE69742964D26000E32FEA /* MonsterList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterList.swift; sourceTree = "<group>"; };
+		3AFE697C2964D68500E32FEA /* monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = monsters.json; sourceTree = "<group>"; };
+		3AFE69802964E77F00E32FEA /* ScreenTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenTitleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3AB5533629693946006BFF3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69312964B02500E32FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A4C72D129707EE800CE2312 /* Kitura in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69412964B02700E32FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE694B2964B02700E32FEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A722BDD29692AF2000FD356 /* Challenge-1 */ = {
+			isa = PBXGroup;
+			children = (
+				3A722BE129692B52000FD356 /* Challenge1.swift */,
+				3A722BE729692EB5000FD356 /* Challenge1Tests.swift */,
+			);
+			path = "Challenge-1";
+			sourceTree = "<group>";
+		};
+		3A722BDF29692B0C000FD356 /* Challenge-2 */ = {
+			isa = PBXGroup;
+			children = (
+				3A722BE329692B63000FD356 /* Challenge2.swift */,
+				3A722BE829692EDD000FD356 /* Challenge2Tests.swift */,
+			);
+			path = "Challenge-2";
+			sourceTree = "<group>";
+		};
+		3A722BE029692B16000FD356 /* Challenge-3 */ = {
+			isa = PBXGroup;
+			children = (
+				3A722BE529692B6D000FD356 /* Challenge3.swift */,
+				3A722BE929692EEB000FD356 /* Challenge3Tests.swift */,
+			);
+			path = "Challenge-3";
+			sourceTree = "<group>";
+		};
+		3A9610292965CC9600D34083 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				3A96102A2965CCA400D34083 /* State.swift */,
+				3A96102E2965CCEC00D34083 /* Actions.swift */,
+				3A9610322965CD5400D34083 /* Reducer.swift */,
+				3A96103A2965D0A900D34083 /* Store.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		3A9610422965E2F200D34083 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE69392964B02500E32FEA /* ContentView.swift */,
+				3AFE69802964E77F00E32FEA /* ScreenTitleView.swift */,
+				3AFE69702964CCB000E32FEA /* MonsterCardView.swift */,
+				3A96103E2965D48400D34083 /* MonsterListView.swift */,
+				3A9610432965E38100D34083 /* MonsterBattleCardView.swift */,
+				3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */,
+				3A7E29FF29678211000D6088 /* WinnerView.swift */,
+				3A961054296616D900D34083 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A96104F2966126800D34083 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3A9610502966128900D34083 /* ColorExtension.swift */,
+				3AFE696C2964CC7100E32FEA /* Bundle-Decodable.swift */,
+				3A722BDA29691A49000FD356 /* AppStoreExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3AB5533A29693946006BFF3E /* ProblemSolving */ = {
+			isa = PBXGroup;
+			children = (
+				3A722BDD29692AF2000FD356 /* Challenge-1 */,
+				3A722BDF29692B0C000FD356 /* Challenge-2 */,
+				3A722BE029692B16000FD356 /* Challenge-3 */,
+			);
+			path = ProblemSolving;
+			sourceTree = "<group>";
+		};
+		3AFE692B2964B02500E32FEA = {
+			isa = PBXGroup;
+			children = (
+				3AFE69362964B02500E32FEA /* BattleOfMonsters */,
+				3AFE69472964B02700E32FEA /* BattleOfMonstersTests */,
+				3AFE69512964B02700E32FEA /* BattleOfMonstersUITests */,
+				3AB5533A29693946006BFF3E /* ProblemSolving */,
+				3AFE69352964B02500E32FEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3AFE69352964B02500E32FEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE69342964B02500E32FEA /* BattleOfMonsters.app */,
+				3AFE69442964B02700E32FEA /* BattleOfMonstersTests.xctest */,
+				3AFE694E2964B02700E32FEA /* BattleOfMonstersUITests.xctest */,
+				3AB5533929693946006BFF3E /* ProblemSolving.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3AFE69362964B02500E32FEA /* BattleOfMonsters */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE69372964B02500E32FEA /* BattleOfMonstersApp.swift */,
+				3A96104F2966126800D34083 /* Extensions */,
+				3A9610422965E2F200D34083 /* Views */,
+				3A9610292965CC9600D34083 /* State */,
+				3AFE69632964C2B600E32FEA /* Data */,
+				3AFE693B2964B02700E32FEA /* Assets.xcassets */,
+				3AFE693D2964B02700E32FEA /* Preview Content */,
+			);
+			path = BattleOfMonsters;
+			sourceTree = "<group>";
+		};
+		3AFE693D2964B02700E32FEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE693E2964B02700E32FEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AFE69472964B02700E32FEA /* BattleOfMonstersTests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5B21DB2968AFBF0002D78B /* MockAPIClientTests.swift */,
+			);
+			path = BattleOfMonstersTests;
+			sourceTree = "<group>";
+		};
+		3AFE69512964B02700E32FEA /* BattleOfMonstersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE69522964B02700E32FEA /* BattleOfMonstersUITests.swift */,
+				3AFE69542964B02700E32FEA /* BattleOfMonstersUITestsLaunchTests.swift */,
+			);
+			path = BattleOfMonstersUITests;
+			sourceTree = "<group>";
+		};
+		3AFE69632964C2B600E32FEA /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3AFE697C2964D68500E32FEA /* monsters.json */,
+				3AFE69682964C5F100E32FEA /* Monster.swift */,
+				3AFE69742964D26000E32FEA /* MonsterList.swift */,
+				3A7E29FB296760DE000D6088 /* Battle.swift */,
+				3ADF6904296C494800A16035 /* Services.swift */,
+				3A58C949296F9AE40053AF14 /* UrlProtocolMock.swift */,
+				3A7E29F929674ABE000D6088 /* MockAPIClient.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3AB5533829693946006BFF3E /* ProblemSolving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AB5533D29693946006BFF3E /* Build configuration list for PBXNativeTarget "ProblemSolving" */;
+			buildPhases = (
+				3AB5533529693946006BFF3E /* Sources */,
+				3AB5533629693946006BFF3E /* Frameworks */,
+				3AB5533729693946006BFF3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProblemSolving;
+			productName = ProblemSolving;
+			productReference = 3AB5533929693946006BFF3E /* ProblemSolving.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFE69332964B02500E32FEA /* BattleOfMonsters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE69582964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonsters" */;
+			buildPhases = (
+				3AFE69302964B02500E32FEA /* Sources */,
+				3AFE69312964B02500E32FEA /* Frameworks */,
+				3AFE69322964B02500E32FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BattleOfMonsters;
+			packageProductDependencies = (
+				3A4C72D029707EE800CE2312 /* Kitura */,
+			);
+			productName = BattleOfMonsters;
+			productReference = 3AFE69342964B02500E32FEA /* BattleOfMonsters.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3AFE69432964B02700E32FEA /* BattleOfMonstersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE695B2964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonstersTests" */;
+			buildPhases = (
+				3AFE69402964B02700E32FEA /* Sources */,
+				3AFE69412964B02700E32FEA /* Frameworks */,
+				3AFE69422964B02700E32FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFE69462964B02700E32FEA /* PBXTargetDependency */,
+			);
+			name = BattleOfMonstersTests;
+			productName = BattleOfMonstersTests;
+			productReference = 3AFE69442964B02700E32FEA /* BattleOfMonstersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3AFE694D2964B02700E32FEA /* BattleOfMonstersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3AFE695E2964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonstersUITests" */;
+			buildPhases = (
+				3AFE694A2964B02700E32FEA /* Sources */,
+				3AFE694B2964B02700E32FEA /* Frameworks */,
+				3AFE694C2964B02700E32FEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3AFE69502964B02700E32FEA /* PBXTargetDependency */,
+			);
+			name = BattleOfMonstersUITests;
+			productName = BattleOfMonstersUITests;
+			productReference = 3AFE694E2964B02700E32FEA /* BattleOfMonstersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3AFE692C2964B02500E32FEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3AB5533829693946006BFF3E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3AFE69332964B02500E32FEA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3AFE69432964B02700E32FEA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AFE69332964B02500E32FEA;
+					};
+					3AFE694D2964B02700E32FEA = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3AFE69332964B02500E32FEA;
+					};
+				};
+			};
+			buildConfigurationList = 3AFE692F2964B02500E32FEA /* Build configuration list for PBXProject "BattleOfMonsters" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3AFE692B2964B02500E32FEA;
+			packageReferences = (
+				3A4C72CF29707EE800CE2312 /* XCRemoteSwiftPackageReference "Kitura" */,
+			);
+			productRefGroup = 3AFE69352964B02500E32FEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3AFE69332964B02500E32FEA /* BattleOfMonsters */,
+				3AFE69432964B02700E32FEA /* BattleOfMonstersTests */,
+				3AFE694D2964B02700E32FEA /* BattleOfMonstersUITests */,
+				3AB5533829693946006BFF3E /* ProblemSolving */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3AB5533729693946006BFF3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69322964B02500E32FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE697D2964D68500E32FEA /* monsters.json in Resources */,
+				3AFE693F2964B02700E32FEA /* Preview Assets.xcassets in Resources */,
+				3AFE693C2964B02700E32FEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69422964B02700E32FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE694C2964B02700E32FEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3AB5533529693946006BFF3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AB5534229693967006BFF3E /* Challenge2Tests.swift in Sources */,
+				3AB553452969396F006BFF3E /* Challenge1.swift in Sources */,
+				3AB5534129693964006BFF3E /* Challenge3Tests.swift in Sources */,
+				3AB3F2B829693A0200696315 /* Challenge1Tests.swift in Sources */,
+				3AB5534329693969006BFF3E /* Challenge2.swift in Sources */,
+				3AB5534029693961006BFF3E /* Challenge3.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69302964B02500E32FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A7E2A0029678211000D6088 /* WinnerView.swift in Sources */,
+				3AFE693A2964B02500E32FEA /* ContentView.swift in Sources */,
+				3A9610512966128900D34083 /* ColorExtension.swift in Sources */,
+				3A9DF25A2970C59500F5B4D2 /* Services.swift in Sources */,
+				3A9610332965CD5400D34083 /* Reducer.swift in Sources */,
+				3A96102B2965CCA400D34083 /* State.swift in Sources */,
+				3AFE69692964C5F100E32FEA /* Monster.swift in Sources */,
+				3A7E29FC296760DE000D6088 /* Battle.swift in Sources */,
+				3A96103B2965D0A900D34083 /* Store.swift in Sources */,
+				3A9DF25B2970C86500F5B4D2 /* UrlProtocolMock.swift in Sources */,
+				3A7E29FA29674ABE000D6088 /* MockAPIClient.swift in Sources */,
+				3A9610442965E38100D34083 /* MonsterBattleCardView.swift in Sources */,
+				3A96102F2965CCEC00D34083 /* Actions.swift in Sources */,
+				3AFE69812964E77F00E32FEA /* ScreenTitleView.swift in Sources */,
+				3A96104C2965FF2E00D34083 /* MonsterBattleCardListView.swift in Sources */,
+				3AFE69382964B02500E32FEA /* BattleOfMonstersApp.swift in Sources */,
+				3AFE696D2964CC7100E32FEA /* Bundle-Decodable.swift in Sources */,
+				3A96103F2965D48400D34083 /* MonsterListView.swift in Sources */,
+				3A961055296616D900D34083 /* ButtonView.swift in Sources */,
+				3AFE69752964D26000E32FEA /* MonsterList.swift in Sources */,
+				3A722BDB29691A49000FD356 /* AppStoreExtension.swift in Sources */,
+				3AFE69712964CCB000E32FEA /* MonsterCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE69402964B02700E32FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5B21DC2968AFBF0002D78B /* MockAPIClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3AFE694A2964B02700E32FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AFE69552964B02700E32FEA /* BattleOfMonstersUITestsLaunchTests.swift in Sources */,
+				3AFE69532964B02700E32FEA /* BattleOfMonstersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3AFE69462964B02700E32FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFE69332964B02500E32FEA /* BattleOfMonsters */;
+			targetProxy = 3AFE69452964B02700E32FEA /* PBXContainerItemProxy */;
+		};
+		3AFE69502964B02700E32FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3AFE69332964B02500E32FEA /* BattleOfMonsters */;
+			targetProxy = 3AFE694F2964B02700E32FEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A9DF25E2970EB6300F5B4D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Testing;
+		};
+		3A9DF25F2970EB6300F5B4D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleOfMonsters/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonsters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Testing;
+		};
+		3A9DF2602970EB6300F5B4D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TESTING=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleOfMonsters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleOfMonsters";
+			};
+			name = Testing;
+		};
+		3A9DF2612970EB6300F5B4D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TESTING=1",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DTESTING";
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG TESTING";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleOfMonsters;
+			};
+			name = Testing;
+		};
+		3A9DF2622970EB6300F5B4D2 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Testing;
+		};
+		3AB5533E29693946006BFF3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3AB5533F29693946006BFF3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3AFE69562964B02700E32FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3AFE69572964B02700E32FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3AFE69592964B02700E32FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleOfMonsters/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonsters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AFE695A2964B02700E32FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BattleOfMonsters/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonsters";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AFE695C2964B02700E32FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TESTING=0",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleOfMonsters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleOfMonsters";
+			};
+			name = Debug;
+		};
+		3AFE695D2964B02700E32FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = "TESTING=0";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BattleOfMonsters.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BattleOfMonsters";
+			};
+			name = Release;
+		};
+		3AFE695F2964B02700E32FEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"TESTING=0",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleOfMonsters;
+			};
+			name = Debug;
+		};
+		3AFE69602964B02700E32FEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = "TESTING=0";
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.BattleOfMonstersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BattleOfMonsters;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3AB5533D29693946006BFF3E /* Build configuration list for PBXNativeTarget "ProblemSolving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AB5533E29693946006BFF3E /* Debug */,
+				3A9DF2622970EB6300F5B4D2 /* Testing */,
+				3AB5533F29693946006BFF3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFE692F2964B02500E32FEA /* Build configuration list for PBXProject "BattleOfMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE69562964B02700E32FEA /* Debug */,
+				3A9DF25E2970EB6300F5B4D2 /* Testing */,
+				3AFE69572964B02700E32FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFE69582964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonsters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE69592964B02700E32FEA /* Debug */,
+				3A9DF25F2970EB6300F5B4D2 /* Testing */,
+				3AFE695A2964B02700E32FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFE695B2964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonstersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE695C2964B02700E32FEA /* Debug */,
+				3A9DF2602970EB6300F5B4D2 /* Testing */,
+				3AFE695D2964B02700E32FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3AFE695E2964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonstersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AFE695F2964B02700E32FEA /* Debug */,
+				3A9DF2612970EB6300F5B4D2 /* Testing */,
+				3AFE69602964B02700E32FEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3A4C72CF29707EE800CE2312 /* XCRemoteSwiftPackageReference "Kitura" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/IBM-Swift/Kitura.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3A4C72D029707EE800CE2312 /* Kitura */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3A4C72CF29707EE800CE2312 /* XCRemoteSwiftPackageReference "Kitura" */;
+			productName = Kitura;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3AFE692C2964B02500E32FEA /* Project object */;
+}

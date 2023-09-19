@@ -24,12 +24,6 @@
 		3A961055296616D900D34083 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A961054296616D900D34083 /* ButtonView.swift */; };
 		3A9DF25A2970C59500F5B4D2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADF6904296C494800A16035 /* Services.swift */; };
 		3A9DF25B2970C86500F5B4D2 /* UrlProtocolMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A58C949296F9AE40053AF14 /* UrlProtocolMock.swift */; };
-		3AB3F2B829693A0200696315 /* Challenge1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE729692EB5000FD356 /* Challenge1Tests.swift */; };
-		3AB5534029693961006BFF3E /* Challenge3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE529692B6D000FD356 /* Challenge3.swift */; };
-		3AB5534129693964006BFF3E /* Challenge3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE929692EEB000FD356 /* Challenge3Tests.swift */; };
-		3AB5534229693967006BFF3E /* Challenge2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE829692EDD000FD356 /* Challenge2Tests.swift */; };
-		3AB5534329693969006BFF3E /* Challenge2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE329692B63000FD356 /* Challenge2.swift */; };
-		3AB553452969396F006BFF3E /* Challenge1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A722BE129692B52000FD356 /* Challenge1.swift */; };
 		3AFE69382964B02500E32FEA /* BattleOfMonstersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69372964B02500E32FEA /* BattleOfMonstersApp.swift */; };
 		3AFE693A2964B02500E32FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFE69392964B02500E32FEA /* ContentView.swift */; };
 		3AFE693C2964B02700E32FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AFE693B2964B02700E32FEA /* Assets.xcassets */; };
@@ -65,12 +59,6 @@
 		3A58C949296F9AE40053AF14 /* UrlProtocolMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlProtocolMock.swift; sourceTree = "<group>"; };
 		3A5B21DB2968AFBF0002D78B /* MockAPIClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClientTests.swift; sourceTree = "<group>"; };
 		3A722BDA29691A49000FD356 /* AppStoreExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreExtension.swift; sourceTree = "<group>"; };
-		3A722BE129692B52000FD356 /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
-		3A722BE329692B63000FD356 /* Challenge2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2.swift; sourceTree = "<group>"; };
-		3A722BE529692B6D000FD356 /* Challenge3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3.swift; sourceTree = "<group>"; };
-		3A722BE729692EB5000FD356 /* Challenge1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1Tests.swift; sourceTree = "<group>"; };
-		3A722BE829692EDD000FD356 /* Challenge2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge2Tests.swift; sourceTree = "<group>"; };
-		3A722BE929692EEB000FD356 /* Challenge3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge3Tests.swift; sourceTree = "<group>"; };
 		3A7E29F929674ABE000D6088 /* MockAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIClient.swift; sourceTree = "<group>"; };
 		3A7E29FB296760DE000D6088 /* Battle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battle.swift; sourceTree = "<group>"; };
 		3A7E29FF29678211000D6088 /* WinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinnerView.swift; sourceTree = "<group>"; };
@@ -83,7 +71,6 @@
 		3A96104B2965FF2E00D34083 /* MonsterBattleCardListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterBattleCardListView.swift; sourceTree = "<group>"; };
 		3A9610502966128900D34083 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		3A961054296616D900D34083 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
-		3AB5533929693946006BFF3E /* ProblemSolving.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProblemSolving.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADF6904296C494800A16035 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		3AFE69342964B02500E32FEA /* BattleOfMonsters.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleOfMonsters.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFE69372964B02500E32FEA /* BattleOfMonstersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleOfMonstersApp.swift; sourceTree = "<group>"; };
@@ -103,13 +90,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3AB5533629693946006BFF3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AFE69312964B02500E32FEA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,33 +115,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3A722BDD29692AF2000FD356 /* Challenge-1 */ = {
-			isa = PBXGroup;
-			children = (
-				3A722BE129692B52000FD356 /* Challenge1.swift */,
-				3A722BE729692EB5000FD356 /* Challenge1Tests.swift */,
-			);
-			path = "Challenge-1";
-			sourceTree = "<group>";
-		};
-		3A722BDF29692B0C000FD356 /* Challenge-2 */ = {
-			isa = PBXGroup;
-			children = (
-				3A722BE329692B63000FD356 /* Challenge2.swift */,
-				3A722BE829692EDD000FD356 /* Challenge2Tests.swift */,
-			);
-			path = "Challenge-2";
-			sourceTree = "<group>";
-		};
-		3A722BE029692B16000FD356 /* Challenge-3 */ = {
-			isa = PBXGroup;
-			children = (
-				3A722BE529692B6D000FD356 /* Challenge3.swift */,
-				3A722BE929692EEB000FD356 /* Challenge3Tests.swift */,
-			);
-			path = "Challenge-3";
-			sourceTree = "<group>";
-		};
 		3A9610292965CC9600D34083 /* State */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,23 +151,12 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
-		3AB5533A29693946006BFF3E /* ProblemSolving */ = {
-			isa = PBXGroup;
-			children = (
-				3A722BDD29692AF2000FD356 /* Challenge-1 */,
-				3A722BDF29692B0C000FD356 /* Challenge-2 */,
-				3A722BE029692B16000FD356 /* Challenge-3 */,
-			);
-			path = ProblemSolving;
-			sourceTree = "<group>";
-		};
 		3AFE692B2964B02500E32FEA = {
 			isa = PBXGroup;
 			children = (
 				3AFE69362964B02500E32FEA /* BattleOfMonsters */,
 				3AFE69472964B02700E32FEA /* BattleOfMonstersTests */,
 				3AFE69512964B02700E32FEA /* BattleOfMonstersUITests */,
-				3AB5533A29693946006BFF3E /* ProblemSolving */,
 				3AFE69352964B02500E32FEA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -225,7 +167,6 @@
 				3AFE69342964B02500E32FEA /* BattleOfMonsters.app */,
 				3AFE69442964B02700E32FEA /* BattleOfMonstersTests.xctest */,
 				3AFE694E2964B02700E32FEA /* BattleOfMonstersUITests.xctest */,
-				3AB5533929693946006BFF3E /* ProblemSolving.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -286,23 +227,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3AB5533829693946006BFF3E /* ProblemSolving */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3AB5533D29693946006BFF3E /* Build configuration list for PBXNativeTarget "ProblemSolving" */;
-			buildPhases = (
-				3AB5533529693946006BFF3E /* Sources */,
-				3AB5533629693946006BFF3E /* Frameworks */,
-				3AB5533729693946006BFF3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ProblemSolving;
-			productName = ProblemSolving;
-			productReference = 3AB5533929693946006BFF3E /* ProblemSolving.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		3AFE69332964B02500E32FEA /* BattleOfMonsters */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AFE69582964B02700E32FEA /* Build configuration list for PBXNativeTarget "BattleOfMonsters" */;
@@ -369,9 +293,6 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					3AB5533829693946006BFF3E = {
-						CreatedOnToolsVersion = 14.2;
-					};
 					3AFE69332964B02500E32FEA = {
 						CreatedOnToolsVersion = 14.2;
 					};
@@ -404,19 +325,11 @@
 				3AFE69332964B02500E32FEA /* BattleOfMonsters */,
 				3AFE69432964B02700E32FEA /* BattleOfMonstersTests */,
 				3AFE694D2964B02700E32FEA /* BattleOfMonstersUITests */,
-				3AB5533829693946006BFF3E /* ProblemSolving */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3AB5533729693946006BFF3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AFE69322964B02500E32FEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -444,19 +357,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3AB5533529693946006BFF3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3AB5534229693967006BFF3E /* Challenge2Tests.swift in Sources */,
-				3AB553452969396F006BFF3E /* Challenge1.swift in Sources */,
-				3AB5534129693964006BFF3E /* Challenge3Tests.swift in Sources */,
-				3AB3F2B829693A0200696315 /* Challenge1Tests.swift in Sources */,
-				3AB5534329693969006BFF3E /* Challenge2.swift in Sources */,
-				3AB5534029693961006BFF3E /* Challenge3.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3AFE69302964B02500E32FEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -655,69 +555,6 @@
 				TEST_TARGET_NAME = BattleOfMonsters;
 			};
 			name = Testing;
-		};
-		3A9DF2622970EB6300F5B4D2 /* Testing */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Testing;
-		};
-		3AB5533E29693946006BFF3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Debug;
-		};
-		3AB5533F29693946006BFF3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "FullStack-Labs.ProblemSolving";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
-			};
-			name = Release;
 		};
 		3AFE69562964B02700E32FEA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -978,16 +815,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3AB5533D29693946006BFF3E /* Build configuration list for PBXNativeTarget "ProblemSolving" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AB5533E29693946006BFF3E /* Debug */,
-				3A9DF2622970EB6300F5B4D2 /* Testing */,
-				3AB5533F29693946006BFF3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		3AFE692F2964B02500E32FEA /* Build configuration list for PBXProject "BattleOfMonsters" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

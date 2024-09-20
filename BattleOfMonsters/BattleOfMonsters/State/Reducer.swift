@@ -15,9 +15,23 @@ let AppReducer: Reducer<AppState, AppActions> = { state, action in
   switch action {
   case .setSelected(let newSelectedMonster):
       mutatingState.selectedMonster = newSelectedMonster
+      
+      mutatingState.battleResilt = nil 
+      
+      if let playerMonster = newSelectedMonster {
+          if let randomComputerMonster = mutatingState.monsters.randomElement() {
+              mutatingState.computerMonster = randomComputerMonster
+          }
+      } else {
+          mutatingState.computerMonster = nil
+      }
     
   case .setMonsters(let newMonsters):
       mutatingState.monsters = newMonsters
+  case .setComputerMonster( let newComputerMonster):
+      mutatingState.computerMonster = newComputerMonster
+  case .setBattleResult(let battleResult):
+      mutatingState.battleResilt = battleResult
   }
 
   return mutatingState

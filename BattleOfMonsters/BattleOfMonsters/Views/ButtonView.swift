@@ -13,7 +13,7 @@ struct ButtonView: View {
     let apiClient: APIClient = MockAPIClient()
     
     func isDisabled() -> Bool{
-        return store.state.selectedMonster == nil
+        return store.state.selectedMonster == nil ||  store.state.computerMonster == nil
     }
     
     func buttonColor(disabled: Bool) -> Color? {

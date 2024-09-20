@@ -11,5 +11,5 @@ struct AppState {
     var monsters: [Monster] = []
     var selectedMonster: Monster?
     var computerMonster: Monster?
-    var battleResilt: Battle?
+    var battleResult: Battle?
 }

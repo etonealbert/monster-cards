@@ -7,20 +7,6 @@
 
 import SwiftUI
 
-struct StatView: View {
-    var statName: String
-    var value: Double
-    
-    var body: some View {
-        VStack(alignment: .leading) {
-            Text(statName)
-                
-            ProgressView(value: value / 100)
-            progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "#00FF00") ?? .green))
-                .frame(height: 15)
-        }
-    }
-}
 
 struct MonsterBattleCardView: View {
     var defaultName: String
@@ -81,6 +67,21 @@ struct MonsterBattleCardView: View {
         .cornerRadius(7)
         .shadow(color: .black.opacity(0.25), radius: 7, x: -2, y: 3)
     }}
+
+struct StatView: View {
+    var statName: String
+    var value: Double
+    
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text(statName)
+                
+            ProgressView(value: value / 100)
+            progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "#00FF00") ?? .green))
+                .frame(height: 15)
+        }
+    }
+}
 
 #if !TESTING
 struct MonsterBattleCardView_Previews: PreviewProvider {

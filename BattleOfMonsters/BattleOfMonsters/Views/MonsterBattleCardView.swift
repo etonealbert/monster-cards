@@ -46,9 +46,13 @@ struct MonsterBattleCardView: View {
                     StatView(statName: "Speed", value: Double(monster.speed))
                 }
             } else {
-                Text("No monster selected")
-                    .font(.headline)
-                    .padding()
+              VStack {
+                  Text(defaultName)
+                      .font(.largeTitle)
+                      .fontWeight(.bold)
+                      .frame(maxWidth: .infinity, alignment: .center)
+              }
+              .frame(maxHeight: .infinity, alignment: .center)
             }
 
             Spacer()

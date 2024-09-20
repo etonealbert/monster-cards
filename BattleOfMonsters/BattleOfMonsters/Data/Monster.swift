@@ -16,4 +16,16 @@ class Monster: Codable, Identifiable {
     var speed: Int
     var type: String
     var imageUrl: URL
+
+    init(id: String, name: String, attack: Int, defense: Int, hp: Int, speed: Int, type: String, imageUrl: URL) {
+        self.id = id
+        self.name = name
+        self.attack = attack
+        self.defense = defense
+        self.hp = hp
+        self.speed = speed
+        self.type = type
+        self.imageUrl = imageUrl
+    }
 }
+

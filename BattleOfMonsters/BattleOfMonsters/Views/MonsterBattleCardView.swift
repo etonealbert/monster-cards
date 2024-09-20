@@ -17,16 +17,16 @@ struct MonsterBattleCardView: View {
     }
     
     var body: some View {
-        VStack(alignment: .center) {
-            VStack(alignment: .leading) {
-                Text(self.defaultName)
-                    .font(.system(size: 36, weight: .regular))
-                    .multilineTextAlignment(.center)
-                    .frame(
-                        maxWidth: .infinity,
-                        maxHeight: .infinity,
-                        alignment: .center
-                    )
+        VStack {
+            Text(monster?.name ?? defaultName)
+                .font(.headline)
+                .padding()
+
+            if let monster = monster {
+                Text("Attack: \(monster.attack)")
+                Text("Defense: \(monster.defense)")
+            } else {
+                Text("No monster selected")
             }
 
             Spacer()

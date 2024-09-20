@@ -34,6 +34,11 @@ struct ContentView: View {
 
                     ButtonView()
                         .accessibilityIdentifier("StartButtonView")
+                  
+                    if let battleResult = store.state.battleResult {
+                        WinnerView(winnerName: battleResult.winner?.name ?? "It's a tie")
+                            .padding(.top, 20)
+                    }
 
                     Spacer()
                 }

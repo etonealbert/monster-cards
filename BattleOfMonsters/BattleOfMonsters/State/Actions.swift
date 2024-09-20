@@ -10,4 +10,6 @@ import Foundation
 enum AppActions {
   case setMonsters([Monster])
   case setSelected(Monster?)
+  case setComputerMonster(Monster?)
+  case setBattleResult(Battle?)
 }

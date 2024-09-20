@@ -40,7 +40,7 @@ struct ButtonView: View {
           let computerMonster = store.state.computerMonster else {
         return
     }
-      let url = "http://localhost:8090/monsters"
+      let url = "http://localhost:8090/battle"
       let requestBody: [String: String] = [
           "monster1Id": playerMonster.id,
           "monster2Id": computerMonster.id

@@ -13,17 +13,16 @@ struct MonsterBattleCardListView: View {
     var body: some View {
         ScrollView(.horizontal) {
             LazyHStack(alignment: .firstTextBaseline, spacing: 23) {
-                MonsterBattleCardView(defaultName: "Player", monster: nil)
+                MonsterBattleCardView(defaultName: "Player", monster: store.state.selectedMonster)
                     .accessibilityIdentifier("PlayerBattleCard")
                 
-                MonsterBattleCardView(defaultName: "Computer", monster: nil)
+                MonsterBattleCardView(defaultName: "Computer", monster: store.state.computerMonster)
                     .accessibilityIdentifier("CPUBattleCard")
             }
             .padding(.horizontal, 7)
             .padding(.top, 6)
-            .frame(width: .infinity, height: 355)
+            .frame(maxWidth: .infinity, minHeight: 355)
 
-            Spacer()
         }
         .accessibilityIdentifier("MonsterBattleCardListScrollView")
     }

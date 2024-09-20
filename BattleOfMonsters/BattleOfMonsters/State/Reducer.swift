@@ -21,8 +21,7 @@ let AppReducer: Reducer<AppState, AppActions> = { state, action in
 
       // Randomly select a computer monster that's not the player's monster
       if let playerMonster = newSelectedMonster {
-          let availableMonsters = mutatingState.monsters.filter { $0.id != playerMonster.id }
-          if let randomComputerMonster = availableMonsters.randomElement() {
+        if let randomComputerMonster = mutatingState.monsters.randomElement() {
               mutatingState.computerMonster = randomComputerMonster
           }
       } else {

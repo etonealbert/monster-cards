@@ -39,7 +39,7 @@ struct MonsterBattleCardView: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding(.vertical, 5)
 
-                VStack(spacing: 10) {
+                VStack(spacing: 3) {
                     StatView(statName: "HP", value: Double(monster.hp))
                     StatView(statName: "Attack", value: Double(monster.attack))
                     StatView(statName: "Defense", value: Double(monster.defense))
@@ -71,7 +71,7 @@ struct StatView: View {
             Text(statName)
                 .font(.caption)
 
-            ProgressView(value: value / 100) // Assuming values are out of 100
+            ProgressView(value: value / 100)
             .progressViewStyle(LinearProgressViewStyle(tint: Color(hex: "#00FF00") ?? .green))
                 .frame(height: 15)
         }

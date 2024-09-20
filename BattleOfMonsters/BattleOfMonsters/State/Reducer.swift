@@ -15,7 +15,10 @@ let AppReducer: Reducer<AppState, AppActions> = { state, action in
   switch action {
   case .setSelected(let newSelectedMonster):
       mutatingState.selectedMonster = newSelectedMonster
-      
+
+      // Reset the battle result when a new monster is selected
+      mutatingState.battleResult = nil
+
       // Randomly select a computer monster that's not the player's monster
       if let playerMonster = newSelectedMonster {
           let availableMonsters = mutatingState.monsters.filter { $0.id != playerMonster.id }

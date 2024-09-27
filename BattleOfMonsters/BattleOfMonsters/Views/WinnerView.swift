@@ -30,6 +30,7 @@ struct WinnerView: View {
             RoundedRectangle(cornerRadius: 4)
                     .stroke(.black, lineWidth: 1)
         )
+        .accessibilityIdentifier("WinnerTextView")
     }
 }
 

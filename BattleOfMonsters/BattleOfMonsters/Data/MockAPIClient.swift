@@ -82,6 +82,28 @@ struct MockAPIClient: APIClient {
                     completion(.failure(error))
                 }
             }
+        case "/battle":
+                var request = URLRequest(url: requestURL)
+                request.httpMethod = method
+                request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+
+                if let body = body {
+                    request.httpBody = try? JSONSerialization.data(withJSONObject: body, options: [])
+                }
+
+                let task = self.session.dataTask(with: request) { data, response, error in
+                    if let data = data {
+                        if let battle = try? JSONDecoder().decode(Battle.self, from: data) {
+                            completion(.success(battle))
+                        } else {
+                            completion(.failure(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Failed to decode Battle response"])))
+                        }
+                    } else if let error = error {
+                        completion(.failure(error))
+                    }
+                }
+
+                task.resume()
         default:
             completion(.failure(NSError(domain: "", code: 404, userInfo: [ NSLocalizedDescriptionKey: "URL does not exist."])))
         }

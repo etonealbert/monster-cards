@@ -20,6 +20,16 @@ class LazyLoadPage: BasePage {
     func getMonsterBattleCardName(with name: String) -> XCUIElement {
         return monsterBattleCardListElements.descendants(matching: .any).staticTexts[name].firstMatch
     }
+    func tapStrongestMonsterCard() {
+        let firstMonsterCard = monsterListElements.children(matching: .any).element(boundBy: 2)
+        XCTAssertTrue(firstMonsterCard.waitForExistence(timeout: 5), "Third MonsterCardView does not exist.")
+        firstMonsterCard.tap()
+    }
+    func tapWeakestMonsterCard() {
+        let firstMonsterCard = monsterListElements.children(matching: .any).element(boundBy: 0)
+        XCTAssertTrue(firstMonsterCard.waitForExistence(timeout: 5), "First MonsterCardView does not exist.")
+        firstMonsterCard.tap()
+    }
 }
 
 class BattleOfMonstersUITests: XCTestCase {
@@ -84,11 +94,49 @@ class BattleOfMonstersUITests: XCTestCase {
     }
     
     func testBattleResultIfPlayerWins() throws {
-        // TODO
-    }
+      let app = XCUIApplication()
+
+      app.launch()
+      
+      let lazyLoadPage = LazyLoadPage()
+
+      // Tap the first monster in the list
+      lazyLoadPage.tapStrongestMonsterCard()
+
+      // Ensure the Start button is enabled and tap it
+      let startButton = lazyLoadPage.descendants["StartButtonView"]
+      XCTAssertTrue(startButton.exists, "StartButtonView does not exist.")
+      XCTAssertTrue(startButton.isEnabled, "Start button should be enabled.")
+      startButton.tap()
+
+      // Wait for the WinnerView to appear
+      let winnerTextView = app.staticTexts["WinnerTextView"]
+      XCTAssertTrue(winnerTextView.waitForExistence(timeout: 5), "WinnerTextView did not appear.")
+
+      XCTAssertEqual(winnerTextView.label, "Red Dragon wins!", "The player should win the battle.")
+  }
+
     
     func testBattleResultIfPlayerLoses() throws {
-        // TODO
+      let app = XCUIApplication()
+      app.launch()
+      
+      let lazyLoadPage = LazyLoadPage()
+
+      // Tap the first monster in the list
+      lazyLoadPage.tapWeakestMonsterCard()
+
+      // Ensure the Start button is enabled and tap it
+      let startButton = lazyLoadPage.descendants["StartButtonView"]
+      XCTAssertTrue(startButton.exists, "StartButtonView does not exist.")
+      XCTAssertTrue(startButton.isEnabled, "Start button should be enabled.")
+      startButton.tap()
+
+
+
+      let winnerTextView = app.staticTexts["WinnerTextView"]
+              XCTAssertTrue(winnerTextView.waitForExistence(timeout: 5), "WinnerTextView did not appear.")
+              XCTAssertNotEqual(winnerTextView.label, "Dead unicorn wins!", "The computer should win the battle.")
     }
 
     func testLaunchPerformance() throws {
